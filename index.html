@@ -1,0 +1,806 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  <title>Mitro</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+  <link rel="stylesheet" href="css/dr-framework.css" type="text/css" media="screen">
+
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,500,700,900' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <div id="container">
+
+    <header>
+      <div class="top wrapper">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png"></a>
+        </div>
+
+        <!-- Navigation -->
+        <div id="nav">
+          <ul id="navlist" class="sf-menu clearfix">
+            <li class="current"><a href="index.html">
+                <div class="main-a"> Home </div>
+                <div class="nav-border"></div>
+
+              </a>
+              <!-- <ul class="sub-menu">
+                <li><a href="home2.html"><span>--</span>Home2</a></li>
+                <li><a href="home3.html"><span>--</span>Home3</a></li>
+                <li><a href="home4.html"><span>--</span>Home4</a></li>
+              </ul> -->
+            </li>
+            <li><a href="about.html">
+                <div class="main-a"> About </div>
+                <div class="nav-border"></div>
+
+              </a></li>
+            <li><a href="services.html">
+                <div class="main-a"> Services </div>
+                <div class="nav-border"></div>
+
+              </a>
+              <ul class="sub-menu">
+
+              </ul>
+            </li>
+            <li><a href="blog.html">
+                <div class="main-a"> Blog </div>
+                <div class="nav-border"></div>
+
+              </a></li>
+            <li><a href="contact.html">
+                <div class="main-a"> Contact </div>
+                <div class="nav-border"></div>
+
+              </a></li>
+          </ul>
+        </div>
+        <!-- Navigation -->
+        <div class="clear"></div>
+      </div>
+    </header>
+    <!--end header-->
+
+    <div class="wrapper">
+
+      <div class="me">
+        <h1>Front-End Notes</h1>
+      </div>
+      <!--end me-->
+
+      <!-- Photo Filters -->
+      <div class="filters clearfix">
+        <div class="filter clearfix">
+          <ul>
+            <li><a href="#" data-filter=".all">All</a></li>
+            <li><a href="#" data-filter=".html">HTML</a></li>
+            <li><a href="#" data-filter=".css">CSS</a></li>
+            <li><a href="#" data-filter=".jquery">JQuery</a></li>
+            <li><a href="#" data-filter=".js">JS</a></li>
+            <li><a href="#" data-filter=".related">RELATED</a></li>
+
+          </ul>
+          <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+        <div class="container clearfix">
+          <ul class="filter-container clearfix">
+
+
+            <li class="html all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>STEP 1.宣告
+                  <hr>
+                </p>
+                <span> &lt;!DOCTYPE&gt; --- Document Type Declaration 讓瀏覽器知道這是HTML<br>
+                  &lt;HTML&gt; &lt;/HTML &gt; --- 文件的開始與結束<br>
+                  &lt;head&gt; --- 標示文件資訊<br>
+                  &lt;title&gt; &lt;/title&gt; --- 網頁標題<br>
+                  &lt;meta&gt; &lt;/meta&gt; --- 紀錄HTML 的資訊 ex: &lt;meta charset="UTF-8"&gt;(使用國際標標準語言)<br>
+                  &lt;/head&gt;<br>
+                  &lt;body&gt; &lt;/body&gt; --- 內容</span>
+              </div>
+
+
+            </li>
+
+            <li class="html all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>About 文字
+                  <hr>
+                </p>
+                <span>
+                  &lt;br&gt; --- 強制換行 <br>
+                  &lt;p&gt;&lt;/p&gt; --- 分段，會多加一行<br>
+                  &lt;pre&gt;&lt;/pre&gt; --- 文字依照你怎麼分段就怎麼呈現，不用自己加&lt;br&gt; &lt;p&gt;<br>
+                  &lt;hr&gt;&lt;/hr&gt; --- 加上分隔線<br>
+                  &lt;h1~6&gt;&lt;/h1~6&gt; --- 文字標題，數字越大字越小<br>
+                  &lt;b&gt;&lt;/b&gt; or &lt;strong&gt; &lt;/strong&gt;--- <b>粗體字</b><br>
+                  &lt;i&gt;&lt;/i&gt; or &lt;em&gt; &lt;/em&gt;--- <em>斜體字</em> <br>
+                  &lt;u&gt;&lt;/u&gt; --- <u>加底線</u><br>
+                  &lt;sup&gt; &lt;/sup&gt; --- 上標字 <br>
+                  &lt;sub&gt; &lt;/sub&gt; --- 下標字<br>
+                  &lt;ruby&gt; &lt;rt&gt; &lt;/rt&gt; &lt;/ruby&gt; --- <ruby>
+                    <rt></rt>附屬說明文
+                  </ruby><br></span>
+              </div>
+
+
+            </li>
+
+            <li class="html all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Background 背景
+                  <hr>
+                </p>
+                <span>
+                  &lt;body bgcolor="6 碼代碼"&gt; --- 網頁背景色<br>
+                  &lt;body background=" 圖片位子"&gt; --- 網頁背景圖<br>
+                  &lt;img src=" 圖片位子"&gt; --- 插入圖片<br>
+                  &lt;img src=" 圖片位子" title=" 花"&gt; --- 圖片註解，滑鼠滑到圖片旁邊會出現註解<br>
+                  &lt;img src=" 圖片位子" alt=" 花"&gt; --- 圖片註解，無法顯示圖片時會出現註解<br>
+                </span>
+              </div>
+
+
+            </li>
+            <li class="html all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Li 列表
+                  <hr>
+                </p>
+                <span>
+                  無順序列表 &nbsp; 有順序列表 <br>
+                  &lt;ul&gt; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&lt;ol&gt; <br>
+                  &lt;li&gt; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<br>
+                  &lt;/ul&gt; &nbsp;&nbsp;&nbsp; &nbsp;&lt;/ol&gt;<br>
+                  <br>
+
+                  默認是1234 可加上star 代表從哪開始<br>
+                  &lt;ol star=6&gt;<br>
+                  &lt;li&gt;<br>
+                  &lt;/ol&gt;<br>
+                  &lt;dl&gt; &lt;dt&gt; &lt;dd&gt; </dl> --- 自定義列表，用在名詞後加入其定義或說明
+
+                </span>
+              </div>
+
+
+            </li>
+
+
+
+            <li class="html all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Table 表格
+                  <hr>
+                </p>
+                <span>
+                  &lt;table&gt; <br>
+                  &lt;tr&gt; --- 列(左右)&nbsp; &nbsp; &nbsp; &lt;td&gt; --- 欄(上下)<br>
+                  &lt;th&gt;&lt;/th&gt; --- 標題欄，放在&lt;tr&gt; 裡面<br>
+                  &lt;caption&gt;&lt;/caption&gt; --- 表格的標題，放在&lt;table&gt;裡面<br>
+                  &lt;border="數字"&gt; --- 邊框大小，加在&lt;table&gt;括號內<br>
+                  &lt;bordercolor="數字"&gt; --- 邊框大小，加在&lt;table&gt;括號內<br>
+                  &lt;cellspacing="數字"&gt; --- 每格間距，加在&lt;table&gt;括號內<br>
+                  &lt;cellpadding="數字"&gt; --- 調整內容位置，加在&lt;table&gt;括號內<br>
+                  &lt;colspan&gt; --- 合併列(左右合併) ，放在&lt;tr&gt;&lt;td&gt;括號內<br>
+                  &lt;rowspan&gt; --- 合併欄 (上下合併)，放在&lt;tr&gt;&lt;td&gt;括號內<br>
+                  &lt;align="right/center/left"&gt; --- 水平對齊，可放在&lt;tr&gt;、&lt;td&gt;、&lt;table &gt;括號內
+                </span>
+
+              </div>
+            </li>
+
+
+            <li class="html all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Link 連結
+                  <hr>
+                </p>
+                <span>
+                  &lt;a herf="網址"&gt; --- 建立超連結<br>
+                  &lt;a herf="網址" target="_blank"&gt; --- 點擊開新分頁<br>
+                  &lt;a id="錨點名稱"&gt; --- 為此錨點命名<br>
+                  &lt;a herf="文件網址# 指定&lt;a id&gt; 或&lt;div&gt;"&gt; --- 連結到指定的錨點<br>
+                  &lt;a herf="網址"&gt;&lt;img src " 圖片網址"&gt;&lt;a&gt; --- 圖片超連結<br>
+                  &lt;a herf="ftp 網址"&gt;&lt;a&gt; --- 指向連結的資料夾或檔案直接下載<br>
+                  &lt;a herf="mailto: email網址&gt;&lt;/a&gt; --- 按下去即可寄信到此mail<br>
+                  &lt;a href="yahoo.com.html# 描點名稱"&gt; --- 建立指向的描點超連結<br><br><br>
+
+                  影像地圖
+                  <a href="https://spicyboyd.blogspot.com/2018/06/web-html-map-tag.html" target="_blank">more</a><br>
+                  &lt;img src="圖片網址" usemap="# 對照表名稱"&gt;<br>
+                  &lt;map id="對照表名稱"&gt;<br>
+                  &lt;area [shape=" 形狀" ] coords="X,Y, 寬, 高" href=" 網址"&gt; &lt;/map&gt;<br><br>
+                  形狀可填:rect ( 矩形) , circ ( 圓形) , 多邊形 (poly) <br>
+                  座標(0 ,0) 代表左上角<br>
+                  circ coords="X,Y,半徑" <br>
+                  poly coords="第一個點的X,Y,第二個點的X,Y,第三個點的X,Y"<br>
+                  poly coords="X,Y,X,Y,X,Y"<br>
+
+                </span>
+
+              </div>
+            </li>
+
+
+            <li class="html all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Media 多媒體應用
+                  <hr>
+                </p>
+                <span>
+                  &lt;figure&gt; 圖片網址&lt;/figure&gt; 文字 --- 使圖片自動會有透明框讓文字不會黏著圖<br>
+                  &lt;figcaption&gt;&lt;/figcaption&gt; --- 放在&lt;figure&gt; 裡面，圖片說明字，文字會黏在圖片下<br>
+                  &lt;video 或 audio src="檔案位置"&gt;&lt;/video 或audio&gt; --- 嵌入影片，只有縮圖無法撥放<br>
+                  &lt;video 或 audio src="檔案位置"controls&gt;&lt;/video 或audio&gt; --- 加上controls 有控制器<br>
+                  &lt;video 或 audio src="檔案位置"controls autoplay&gt;&lt;/video 或audio&gt; ---自動撥放影片<br>
+                  video --- 支援mp4.webM.Ogg <br>
+                  audio --- 支援mp3.wav.ogg<br><br>
+
+                  加上soure 網頁會依據順序，自動找出可支援的格式<br>
+                  &lt;video 或audio controls&gt;
+                  &lt;soure src="mp4格式的影片" type='video/mp4'&gt;<br>
+                  &lt;soure src="ogg格式的影片" type='video/ogg'&gt;<br>
+                  &lt;soure src="webm格式的影片" type='video/webm'&gt;<br>
+                  &lt;/video 或 audio&gt;
+
+                </span>
+
+              </div>
+            </li>
+
+
+
+            <li class="html all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Input 互動式表單
+                  <hr>
+                </p>
+                <span>
+                  &lt;form name=" 名字" method="get/post action=" 網址"&gt;&lt;/form&gt; --- 表單開頭，(method請求方式)(action資料提交至)
+                  <hr>
+                  以下的東西都要放在form裡面<br>
+                  &lt;input type="text"&gt; --- 可輸入文字的欄位<br>
+                  &lt;input type="text" name="文字" size="數字" maxlength="數字"&gt;加上size調整框框長度;加上maxlength限制輸入長度<br>
+                  &lt;input type="任何類型" requierd /&gt; --- 必填欄位<br>
+                  &lt;input type="text" pattern="文字的正規表達式" /&gt; --- 輸入的文字正確格式<br><br>
+                  ex:<br>
+                  &lt;input type="text" pattern="[a-z A-Z 0-9]+@[a-z A-Z 0-9._]"/&gt;E-mail 輸入格式<br>
+                  &lt;input type="text" pattern="[0-9]"/&gt; --- 驗證第一位是否為數字 其餘不驗證<br>
+                  &lt;input type="text" pattern="[0-9]{3}"/&gt; --- 驗證前三位是否為數字 第四後不驗證<br>
+                  &lt;input type="text" pattern="[0-9]*"/&gt; --- 3驗證所有是否為數字<br>
+                  &lt;input type="text" pattern=" 任何形式" tittle=" 未通過會談出的訊息內容" /&gt; ---
+                  輸入的格式錯誤，會彈出tittle 所設定的內容<br>
+
+                  &lt;input type="password"&gt; --- 可輸入密碼的欄位，輸入後會顯示*或是●<br>
+                  &lt;input type="submit"&gt; --- 送出資料的按鈕，送到前面action的網址<br>
+                  &lt;input type="reset"&gt; --- 清除資料按鈕<br>
+                  &lt;input type="radio&gt; --- 單選鈕<br>
+                  &lt;input type=" checkbox"&gt; --- 多選鈕<br>
+                  &lt;input type="image src=" 圖片位子"&gt; --- 會送出滑鼠在哪按的位子座標<br>
+
+                  &lt;select name="名字"&gt; &lt;/select&gt; --- 下拉式選單<br>
+                  &lt;option value="第幾個選項"&gt;&lt;/option&gt; --- 下拉式選單的項目，放在&lt;section&gt; 裡面<br>
+                  &lt;option value="第幾個選項" selected&gt;&lt;/option&gt; --- 預設的選項<br>
+                  &lt;select size="數字"&gt; --- 列表欄的大小，預設只能看到一條<br>
+                  &lt;textarea name="名字" rows(高)=" 數字" cols(寬)="數字"&gt; 這可加上默認的內容&lt;/textarea&gt; ---
+                  區塊文字輸入欄位type="text" 只能輸入一行這能輸入多行<br>
+                  &lt;textarea name="名字" rows(高)=" 數字" cols(寬)="字" wrap="off"&gt;&lt;/textarea&gt;
+                  輸入資料超過欄位寬度，會出現卷軸，不會自動換行<br>
+                  &lt;textarea name="名字" rows(高)=" 數字" cols(寬)="數字" wrap="virtual"&gt;
+                  &lt;/textarea&gt; ---再輸入時按enter 的地方會換行其餘不會自動換行<br>
+                  &lt;textarea name="名字" rows(高)=" 數字" cols(寬)="數字" wrap="physical"&gt;
+                  &lt;/textarea&gt; ---會自動換行<br>
+                  &lt;input name="名字" type="形式" tabindex="數字"&gt; --- 讓使用者可用tab 切換，
+                  順序照數字小至大<br>
+                  &lt;fieldset&gt;&lt;/fieldset> --- 將多個輸入欄位框在一起，裡面包著要框再一起的input<br>
+                  &lt;legend>&lt;/legend> --- 在&lt;legend> 裡的文字會出現在&lt;fieldest> 框線上<br><br>
+
+                  收尋框<br>
+                  此div要放在&lt;head&gt;裡面<br>
+
+                  &lt;isindex action="要處理表單的地方" prompt="輸入框前的文字"&gt;&lt;/isindex&gt;
+
+
+
+                </span>
+
+              </div>
+            </li>
+
+
+
+            <li class="css all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>STEP.1 宣告
+                  <hr>
+                </p>
+                <span>
+
+                  標籤選擇器tag ----<br>
+                  類別選擇器class ---- . 任何tag<br>
+                  識別碼選擇器 ID ---- # 任何tag<br><br>
+
+                  1.以&lt;style type=text/css&gt; &lt;/style&gt; 定義<br>
+                  在style 中間加入*{margin:0; padding:0;} -- 清空默認<br><br>
+
+                  2.外部樣式利用&lt;link&gt;或@import連結html檔案<br>
+                  link --- 在&lt;head&gt; &lt;link rel=StyleSheet type=text/css href=css檔案連結&gt; &lt;/head&gt;<br>
+                  @import --- &lt;head&gt; &lt;style type=text/css &gt; @import url
+                  (css檔案連結);&lt;/style&gt;&lt;/head&gt;<br>
+                  (可以使用在html 跟css 檔案裡，可以從這個css 檔呼叫另一個css)<br>
+                  *在html用style優先權最高；其他的依照出現順序越晚的優先權越高<br><br>
+
+                  類別選擇器 --- 讓元素選擇以某個類別為套用對象 &nbsp; &nbsp;&nbsp;.類別名稱{屬性:屬性質}<br>
+                  &lt; 元素名稱 class= 類別名稱&gt; &lt;/ 元素名稱&gt;<br>
+                  只允許類別內的某個元素套用規則 ---<br>
+                  &lt;style=text/css&gt; 元素名稱. 類別名稱 {屬性:屬性質;} &lt;/style&gt;<br><br>
+
+
+                  識別選擇器 --- id 只能對應到一個元素，不像類別中可以包含多個元素<br>
+                  # 識別碼 {屬性:屬性質;} 或是 元素名稱# 識別碼 {屬性:屬性質;}<br>
+                  &lt;元素名稱 id=識別碼&gt; &lt;/元素名稱&gt;<br>
+
+                </span>
+
+              </div>
+            </li>
+
+
+
+            <li class="css all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Style 文字
+                  <hr>
+                </p>
+                <span>
+                  1.字體大小<br>
+                  font-size:數值 px 或pt ; xx-small/x-small/small/medium(預設大小)/large/x-large/xx-large<br>
+                  <hr>
+                  2.字型<br>font-family:字型名稱1,字型名稱2,字型名稱3;(字型名稱有空格需用" "包起來)
+                  使用每台電腦都有的字型，或google字型
+                  需先引進字型集<br>
+
+                  &lt;head&gt;
+                  &lt;link href="字型連結" rel="stylesheet" type="text/css"&gt;
+                  &lt;/head&gt;
+                  就可以在css選用字型
+
+                  <hr>
+                  3.字粗細<br>
+                  font-weight:屬性質(100,200,300~900/lighter/normal/bold/bolder，600~900屬加粗)<br>
+                  <hr>
+
+
+                  4.斜體字<br>
+                  font-style:italic(字體原本就有設計斜體)/oblique(不管字體有無設計都會變斜體)<br>
+                  <hr>
+
+                  5.轉換英文字母大小<br>
+                  text-transform:uppercase/font-vertical:all-small-caps&nbsp;&nbsp;(將所有字母轉為小型大寫)<br>
+                  font-vertical:small-caps(將所有字母轉為小型大寫)<br>
+                  text-transform:lowercase(將所有字母轉為小寫)<br>
+                  text-transform:capitalize(所有英文字首大寫)<br>
+                  text-transform:none(恢復原本大小寫)<br>
+                  <hr>
+
+                  6.加線<br>
+                  text-decoration:underline(文字加底線)<br>
+                  text-decoration:overline(文字加頂線)<br>
+                  text-decoration:line-throught(文字加刪除線)<br>
+                  text-decoration:none(恢復原本狀態)以上可以同時使用<br>
+                  text-overflow:ellipsls---文字超出範圍以... 代替<br>
+                  <hr>
+
+                  7.水平對齊<br>
+                  text-align: left/ center/ right/ justfity(齊頭齊尾)<br>
+                  <hr>
+
+                  8.垂直對齊(圖片或文字) --- vertical-align:top (緊靠顯示區域最上緣)<br>
+                  vertical-align: text-top (緊靠上一個div的文字上緣)<br>
+                  vertical-align: bottom (緊靠顯被示區域最下緣)<br>
+                  vertical-align: text-bottom (緊靠上一個div的文字下緣)<br>
+                  vertical-align: middle (緊靠上一個div的文字中線)<br>
+                  vertical-align: super (設定為上標字)<br>
+                  vertical-align: sub (設定為下標字)<br>
+                  <hr>
+
+
+                  9.行高<br>
+                  line-height: 數字px ; 數字em (倍數)<br>
+                  <hr>
+
+                  10.字距---letter-spacing: 數字px 或是normal (預設值)<br>
+                  <hr>
+
+                  11.文字顏色 --- color: 顏色英文/ rgb(數字, 數字, 數字)/ 顏色代碼<br>
+                  <hr>
+
+
+
+                </span>
+
+              </div>
+            </li>
+
+
+            <li class="css all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Background 背景
+                  <hr>
+                </p>
+                <span>
+                  背景顏色 ---background-color: 顏色英文/ rgb(數字, 數字, 數字)/ 顏色代碼<br>
+                  <hr>
+
+                  背景圖案 --- background-image:url (圖檔路徑)<br>
+                  <hr>
+
+                  背景重複<br>
+
+                  background-repeat : no-repeat (不重複顯示)<br>
+                  background-repeat : repeat-x (沿X軸方向重複)<br>
+                  background-repeat : repeat-y (沿Y軸方向重複)<br>
+                  background-repeat : repeat (沿X.Y 軸方向重複)<br>
+                  <hr>
+                  指定背景位子<br>
+                  background-position:"X軸屬性質(center/left/right) Y軸屬性質(top/center/bottom)"<br>
+                  background-position:"X 軸% Y 軸%"<br>
+                  background-position:"X 軸數字pt Y 軸數字pt"<br>
+                  <hr>
+
+
+                  固定背景圖案<br>
+                  background-attachment : fixd (固定) scroll (滾動)<br>
+                  <hr>
+                </span>
+              </div>
+            </li>
+
+
+            <li class="css all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Image 圖片
+                  <hr>
+                </p>
+                <span>
+                  陰影效果<br>
+                  box-shadow : X 偏移質px , Y 偏移質, 模糊係數, 顏色<br>
+                  <hr>
+                  濾鏡效果 <br>
+                  -webkit-filter:drop-shadow (X偏移質px , Y偏移質, 模糊係數, 顏色) IE不支援<br>
+                  <hr>
+
+                  懷舊照片效果 <br>
+                  -webkit-filter:grayscale (降低彩度的係數) 將照片減少彩度<br>
+                  <hr>
+
+                  圖片變透明度剪裁遮色片效果 <br>
+                  filter:alpha (opacity:透明度 , style : 代碼0 無漸層 / 1直線漸層右至左/2圓形漸層圓心到外
+                  圍/3 矩形漸層四邊到中央)<br>
+                  <hr>
+
+                  圓角效果 <br>
+                  border-radius:數字px<br>
+                  <hr>
+
+                  圓型 <br>
+                  border-radius:50%<br>
+                  左上角圓角 --- border-top-left-radius : 數字px<br>
+                  右上角圓角 --- border-top-right-radius : 數字px<br>
+                  左下角圓角 --- border-bottom-left-radius : 數字px<br>
+                  右下角圓角 --- border-bottom-right-radius : 數字px<br>
+                  <hr>
+                  用code畫圓
+                  clip-path: circle (數字%) --- 圓形<br>
+                  clip-path: ellipse (數字px 數字px at 數字% 數字%) --- 半圓形<br>
+                  clip-path: polygon (數字% 數字, 數字% 數字%, 數字% 數字%, 數字% 數字%) --- 菱形<br>
+                  <hr>
+
+                  *width: 數字vw --- 跟著視窗的寬度<br>
+                  *height: 數字 vh --- 跟著視窗的高度<br>
+
+                  <hr>
+
+
+                  圖片light box 效果<br>
+                  &lt;a data-caption="點開圖片,下面的文字" data-fancybox="images" <br>
+                  href="裡面圖網址"&gt;&lt;img src="圖片網址"&gt;&lt;a&gt;
+
+                </span>
+              </div>
+            </li>
+
+
+            <li class="css all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Position 定位
+                  <hr>
+                </p>
+                <span>
+                  Position<br>
+
+                  position: absolut --- 絕對定位 (往上層找有position的為基準, 如果沒有就是body)<br>
+                  position: relative --- 相對定位 (以自己為基準)<br>
+                  position: fixed --- 固定定位 (以可看見的視窗範圍為基準)<br>
+                  position: static --- 無定位<br>
+                  padding --- 內距 margin --- 外距<br>
+                  <hr>
+
+
+                  overflow<br>
+                  overflow: auto --- 超出範圍出現有滾動條<br>
+                  overflow: hidden --- 超出範圍就隱藏或是避免引響父元素<br>
+                  overflow: inherit --- 跟隨父元素的屬性<br>
+                  overflow-X/Y : hidden --- 隱藏X/Y<br>
+                  overflow-X/Y : scroll --- X/Y 超出有滾動條<br>
+                  white-space : nowrap --- 將超出的文字強制顯示只有一行<br>
+                  text-overflow : ellipsis --- 將超出的文字顯示為...<br>
+                  <hr>
+
+
+                  Block<br>
+                  塊元素block --- 獨佔一行，可以設定寬度高度<br>
+                  (div./dl.(清單)/dt.(項目)/dd.(描述)/ol./ul./h1~h6/form/hr/table/tr/td<br>
+
+                  行內元素inline --- 顯示在同一行，無法設定寬度高度<br>
+                  (a/span/i/b/strong/em(強調標籤)<br>
+
+                  行內塊元素inline-block --- 顯示在同一行，可設定寬度高度，默認會有間距<br>
+                  (img/input)<br>
+
+                  轉換元素類型 display : inline-block / inline / block<br>
+                  <hr>
+
+                  z-index: 數字 --- 層級(類似圖層)，數字<br>
+                  <hr>
+
+                </span>
+
+              </div>
+            </li>
+
+
+
+
+            <li class="css all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Table 表格
+                  <hr>
+                </p>
+                <span>
+                  框線種類<br>
+                  border-style : none / solid 單實線/ double 雙實線 / dashed 單虛線/ dotted 圓點虛線<br>
+                  框線框度 --- border-width : 數字px<br>
+                  框線顏色 --- border-color : 顏色英文/ RGB<br><br>
+
+                  單獨設計上下左右框線<br>
+                  框線種類 --- border-top/bottom/left/right/ - style : 屬性質<br>
+                  框線框度 --- border-top/bottom/left/right/ - width : 數字px<br>
+                  框線顏色 --- border-top/bottom/left/right/ - color : 顏色英文/RGB<br>
+                  每格間距 --- border-spacing : 數字<br>
+                  合併相鄰格 --- border-collaps : collapse ;<br>
+                  隱藏無內容的格子 --- empty-cells : hide;<br><br>
+                  格行變色<br>單數 tr:nth-child (2n+1) <br>雙數 tr:nth-child(2n)
+                  <hr>
+                </span>
+              </div>
+            </li>
+
+            <li class="css all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>List 列表
+                  <hr>
+                </p>
+                <span>
+                  li 無序列表符號<br>
+                  list-style-type : disc 實心圓 /circle 空心圓 / square 實心方塊 /none 無<br>
+                  <hr>
+
+                  ol 有序列表符號<br>
+                  list-style-type : lower-roman小寫羅馬數字 / upper-roman大寫羅馬數字 / decimal阿拉伯數字 /
+                  lower-alpha 小寫英文字母 / upper-alpha 大寫英文字母<br>
+                  自訂圖案為項目符號 : list-style-image : url ( 圖檔網址)<br>
+                  指定符號位置 : list-style-position : outside 文字區外 / inside 文字區內<br>
+                  <hr>
+                </span>
+              </div>
+            </li>
+
+            <li class="related all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>偽對象選擇符
+                  <hr>
+                </p>
+                <span>
+                  .class name :before --- 在此元素之前添加<br>
+                  .class name :after --- 在此元素之後添加
+                </span>
+
+              </div>
+            </li>
+
+            <li class="related all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Media Queries --- RWD
+                  <hr>
+                </p>
+                <span>
+                  @media screen and (min-width: 最小顯示寬度) and (max-width: 最大顯示寬度)
+                  {載入時要改變的css的樣式}<br>
+                  @media screen and (max-device-width : 最大裝置可顯示寬度)
+                  {載入時要改變的css的樣式}
+                  <hr>
+                </span>
+              </div>
+            </li>
+
+
+
+
+            <li class="related all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Bootstrap
+                  <hr>
+                </p>
+                <span>
+                  載入bootstrap<br><br>
+                  &lt;html&gt;<br>
+                  &lt;head&gt;<br>
+                  &lt;tittle&gt; Bootstrap &lt;/tittle&gt;<br>
+                  &lt;script src="//code.jquery.com/juqery-1.11.3.min.js"&gt;&lt;/script&gt; --- 引用jQuery線上連結<br>
+                  &lt;script type="text/javascript" src="js/bootstrap.min.js"&gt;&lt;/script&gt; ---
+                  引用js資料夾內的javascript<br><br>
+
+                  &lt;link rel="stylesheet" href="css/bootstrap.min.css"/&gt; --- 引用css 資料夾內樣式定義檔<br>
+                  &lt;link rel="stylesheet" href="css/bootstrap-theme.min.css"/&gt; --- 引用css資料夾內另一個樣式定義檔<br>
+                  &lt;/head&gt;<br>
+                  <hr>
+                </span>
+              </div>
+            </li>
+
+
+
+
+            <li class="related all ">
+              <div class="view view-two">
+              </div>
+              <div class="port-text ">
+                <p>Grid-System 格線系統
+                  <hr>
+                </p>
+                <span>
+                    row --- 行/橫向 &nbsp; &nbsp; column --- 列/ 直向<br>
+                    col-xs- 數字1~12 --- xs 代表顯示寬度768px<br>
+                    col-sm- 數字1~12 --- sm 代表顯示寬度介於768px~992px<br>
+                    col-md- 數字1~12 --- md 代表顯示寬度介於993px~1119px<br>
+                    col-lg- 數字1~12 --- lg 代表顯示寬度>1200px<br>
+                  <hr>
+                </span>
+              </div>
+            </li>
+
+
+
+        </div>
+
+
+
+
+        <!--
+                    <li class="class3">
+                    <div class="view view-two">
+                      <img src="assets/img2.jpg" alt="" />
+                      <div class="mask">
+                        <div class="i-icons">
+                          <a href="#"><i class="fa fa-link"></i></a>
+                          <a href="assets/img2.jpg" data-fancybox-group="group"><i class="fa fa-search"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="port-text">
+                      <h4>Camera</h4>
+                      <span>photography</span>
+                    </div>
+            </li> -->
+
+
+
+
+        <div class="clear"></div>
+      </div>
+    </div>
+
+    <!-- End Photo Filters -->
+
+  </div>
+
+
+  <footer>
+
+    <div class="copyright wrapper">
+      <p>© 2014 mitro inc, All Rights Reserved</p>
+
+      <div class="socials">
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-pinterest"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!--end footer-->
+
+  </div>
+
+  <div class="preloader">
+    <img alt="" src="images/preloader.gif">
+  </div>
+
+
+  <!-- include jQuery -->
+  <script src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript" src="js/jquery.superfish.js"></script>
+  <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+
+</body>
+
+</html>
